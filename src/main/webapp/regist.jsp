@@ -21,16 +21,26 @@
             window.top.location = window.location;
         }
     </script>
-
+	<style type="text/css">
+		#header1{
+				height: 10px;
+				width: 100%;
+				text-align: center;
+				color: white;
+				padding-top: 50px;
+				color: #2B2B36;
+			}
+	</style>
 </head>
 
 <body class="signin">
+	<div id="header1">
+			<h1 style=" "><strong><span style="letter-spacing:15px;">用户注册</span></strong></h1>
+	</div>
     <div class="signinpanel">
         <div class="row">
             <div class="col-sm-12">
                 <form id="login-form"  action="BookTitle/abc.action">
-                    <h4 class="no-margins">注册：</h4>
-                    <p class="m-t-md">注册用户</p>
                     <input type="text" id="name" name="name" class="form-control uname" placeholder="用户名" />
                     <input type="password" id="password" name="password" class="form-control pword m-b" placeholder="密码" />
                     <input type="text" id="address" name="address" class="form-control pword m-b" placeholder="地址" />
@@ -39,14 +49,22 @@
                     <input type="text" id="code"  name ="code"class="form-control pword m-b" placeholder="验证码" />
                     <img src="img" onclick="changed(this);"/>
                     <button type="submit" class="btn btn-success btn-block" >注册</button>
-                    <a href="login.jsp">登陆</a>
+                    <br>
+                    <div class="col-sm-6" ></div>
+						<label class="control-label col-sm-6">
+							
+							<span style="color: white">|</span>
+							<a href="login.jsp">登陆</a>
+							<span style="color: white">|</span>
+						</label>
+            
                 </form>
                 
             </div>
         </div>
         <div class="signup-footer">
             <div class="pull-left">
-                &copy; 刘超书店
+                &copy; 网上书店
             </div>
         </div>
     </div>

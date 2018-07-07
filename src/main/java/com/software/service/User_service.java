@@ -16,6 +16,8 @@ public interface User_service {
 	
 	
 	public User select_User_by_id(int id);
+	
+	public void update_user(User u);
 
 	
 

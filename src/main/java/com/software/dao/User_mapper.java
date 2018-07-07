@@ -30,7 +30,8 @@ public interface User_mapper {
 	public User selectUser_by_id(int id);
 	
 	
-	
+	@Update("update user set  name = #{name}, password = #{password}, address = #{address}, phone = #{phone} where userid = #{userid}")
+	public void update_user(User u);
 	
 	
 	

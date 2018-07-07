@@ -5,21 +5,27 @@
 <link rel="stylesheet" type="text/css"
 	href="../libs/bootstrap/css/bootstrap.min.css" />
 </head>
-<body>
+<body style="color:#23B7E5;">
 
-
+<div style="width:80% ;margin: 0 auto;">
 
 	<table class="table table-bordered table-hover">
   
       <thead>
-      <div>
-      【刘超购物车】
-      </div>
+    		 <div>
+				<span style="color: #23B7E5; font-size: 25px;">购物车</span>
+			</div>
                         
       </thead>
 		<tbody>
 			
-
+			<tr style="background-color: #D0D0D0; color:black;">
+				<td>书籍</td>
+				<td>书名</td>
+				<td>操作</td>
+				
+			
+			</tr>
 			<c:forEach items="${requestScope.user_cart_list }" var="ucl">
            
 
@@ -113,7 +119,7 @@
 
 
 
-
+</div>
 
 </body>
 <script src="../libs/js/jquery-3.2.1.min.js" type="text/javascript"

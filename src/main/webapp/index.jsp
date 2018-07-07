@@ -33,12 +33,12 @@
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#"> <span
 								class="clear"> <span class="block m-t-xs"
 									style="font-size: 20px;"> <i class="fa fa-area-chart"></i>
-										<strong class="font-bold">刘超网上书店</strong>
+										<strong class="font-bold">网上书店</strong>
 								</span>
 							</span>
 							</a>
 						</div>
-						<div class="logo-element">刘超</div>
+						<div class="logo-element">online store</div>
 					</li>
 					<li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
 						<span class="ng-scope">分类</span>
@@ -49,6 +49,13 @@
 					<li><a class="J_menuItem" href="BookTitle/select_cart_1.action"> <i
 							class="fa fa-home"></i> <span class="nav-label">购物车</span>
 					</a></li>
+					
+					<li><a class="J_menuItem" href="BookTitle/update_user_information.action"> <i
+							class="fa fa-home"></i> <span class="nav-label">个人信息</span>
+					</a></li>
+					
+					
+					
 					<li><a href="#"> <i class="fa fa fa-bar-chart-o"></i> <span
 							class="nav-label">书籍分类</span> <span class="fa arrow"></span>
 					</a>
@@ -106,7 +113,14 @@
 
 	<!-- 第三方插件 -->
 	<script src="libs/js/plugins/pace/pace.min.js"></script>
+	
+	
+	
+	
+	
 
 </body>
+
+
 
 </html>

@@ -390,6 +390,24 @@ public class BookTitle_controller {
 		return accept_wait( res,  m);
 	}
 	
+	@RequestMapping("/update_user_information")
+	public String update_user_information(ModelMap m, HttpServletRequest res) {
+		String username = res.getSession().getAttribute("user").toString();
+		m.put("user_list", us.selectUser_by_name(username));
+		return "User/userInformation";
+		
+	}
+	
+	@RequestMapping("/user_edit")
+	public String user_edit(ModelMap m, HttpServletRequest res, User u) {
+		
+		u.setPassword(Md5.MD5(u.getPassword()));
+		us.update_user(u);
+		return update_user_information( m,  res);
+		
+	
+	}
+	
 	
 
 }

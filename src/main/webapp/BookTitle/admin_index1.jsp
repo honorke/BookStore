@@ -5,14 +5,23 @@
 <link rel="stylesheet" type="text/css"
 	href="../libs/bootstrap/css/bootstrap.min.css" />
 </head>
-<body>
+<body style="color:#23B7E5;">
 
-    
+<div style="width:80% ;margin: 0 auto;">    
 
 	<table class="table table-bordered table-hover">
 
 
 		<tbody>
+		<tr style="background-color: #D0D0D0; color:black;">
+				<td>书籍</td>
+				<td>书名</td>
+				<td>作家</td>
+				<td>出版日期</td>
+				<td>成本</td>
+				<td>售价</td>
+				<td>操作</td>
+			</tr>
 			<!-- 
 			<c:forEach items="${requestScope.BookTitle_list}" var="row" 
 				>
@@ -213,7 +222,7 @@
 
 
 
-
+</div>
 </body>
 <script src="../libs/js/jquery-3.2.1.min.js" type="text/javascript"
 	charset="utf-8"></script>

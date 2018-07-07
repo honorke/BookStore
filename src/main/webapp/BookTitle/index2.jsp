@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    
+    <div style="width:80% ;margin: 0 auto;">
 
 	<table class="table table-bordered table-hover">
 
@@ -76,7 +76,7 @@
 
 
 
-
+</div>
 </body>
 <script src="../libs/js/jquery-3.2.1.min.js" type="text/javascript"
 	charset="utf-8"></script>

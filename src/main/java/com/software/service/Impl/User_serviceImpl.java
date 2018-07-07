@@ -48,6 +48,12 @@ public class User_serviceImpl implements User_service {
 	}
 
 
+	public void update_user(User u) {
+	      mapper.update_user(u);
+		
+	}
+
+
 	
 	
 
